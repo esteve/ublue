@@ -13,8 +13,9 @@ COPY build_files /
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
 # Fedora base image: quay.io/fedora/fedora-bootc:41
 # CentOS base images: quay.io/centos-bootc/centos-bootc:stream10
-FROM quay.io/almalinuxorg/almalinux-bootc:10.0
+#FROM quay.io/almalinuxorg/almalinux-bootc:10.0
 #FROM quay.io/almalinuxorg/almalinux-bootc:10
+FROM quay.io/almalinuxorg/almalinux-bootc:9
 
 ### MODIFICATIONS
 ## make modifications desired in your image and install packages by modifying the build.sh script
