@@ -11,7 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf5 install -y tmux 
-dnf install -y btrfs-progs
+# Install btrfs-progs later
+# dnf install -y btrfs-progs
 
 # Use a COPR Example:
 #
