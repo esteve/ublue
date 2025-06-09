@@ -24,4 +24,6 @@ set -ouex pipefail
 #### Example for enabling a System Unit File
 
 #systemctl enable podman.socket
-dnf install -y epel-release
+sudo dnf install 'dnf-command(config-manager)' epel-release -y
+sudo dnf config-manager --set-enabled crb
+
