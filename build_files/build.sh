@@ -24,3 +24,5 @@ set -ouex pipefail
 #### Example for enabling a System Unit File
 
 #systemctl enable podman.socket
+dnf config-manager --set-enabled crb
+dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
