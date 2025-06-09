@@ -1,6 +1,6 @@
 # see https://github.com/osbuild/bootc-image-builder?tab=readme-ov-file#anaconda-iso-installer-options-installer-mapping
 [customizations.installer.kickstart]
-contents = """Add commentMore actions
+contents = """
 %post
 bootc switch --mutate-in-place --transport registry ghcr.io/esteve/ublue:latest
 %end
